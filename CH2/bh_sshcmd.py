@@ -9,8 +9,8 @@ def ssh_command(ip,user,passwd,command):
     client.connect(ip,username=user,password=passwd)
     ssh_session = client.get_transport().open_session()
     if ssh_session.active:
-        ssh_session.exec_ommand(command)
+        ssh_session.exec_command(command)
         print ssh_session.recv(1024)
     return
 
-ssh_command('10.211.55.3','charles','lovesthepython','id')
+ssh_command('10.211.55.3','charles','1qaz@WSX','id')
