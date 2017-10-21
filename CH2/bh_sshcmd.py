@@ -13,4 +13,4 @@ def ssh_command(ip,user,passwd,command):
         print ssh_session.recv(1024)
     return
 
-ssh_command('10.211.55.3','charles','1qaz@WSX','id')
+ssh_command('10.211.55.17','root','owaspbwa','id')

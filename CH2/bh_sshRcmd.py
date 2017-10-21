@@ -20,4 +20,4 @@ def ssh_command(ip,user,passwd,command):
                 ssh_session.send(str(e))
         client.close()
     return
-ssh_command('10.211.55.3','charles','1qaz@WSX','ClientConnected')
+ssh_command('10.211.55.3','charles','1qaz@WSX','id')
